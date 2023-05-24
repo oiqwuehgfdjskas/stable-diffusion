@@ -92,7 +92,7 @@ def check_safety(x_image):
     for i in range(len(has_nsfw_concept)):
         if has_nsfw_concept[i]:
             x_checked_image[i] = load_replacement(x_checked_image[i])
-    return x_checked_image, has_nsfw_concept
+    return x_checked_image = x_samples_ddim
 
 
 def main():
